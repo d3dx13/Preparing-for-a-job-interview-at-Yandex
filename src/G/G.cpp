@@ -47,13 +47,10 @@ int main() {
             unsigned int distance_to_unreached_city = 0;
             distance_to_unreached_city += (unsigned int) abs(cities[i].first - cities[city_id].first);
             distance_to_unreached_city += (unsigned int) abs(cities[i].second - cities[city_id].second);
-            // cout << "new try: " << city_id + 1 << " -> " << i + 1;
             if (distance_to_unreached_city <= k) {
                 cities_to_visit.push(make_pair(i, city_id));
                 cities_min_distance[i] = min(cities_min_distance[i], cities_min_distance[city_id] + 1);
-                // cout << " and add";
             }
-            // cout << "\n";
         }
 
         // cout << city_id << " - " << city_prev_id << " - " << cities_min_distance[city_id] << "\n";

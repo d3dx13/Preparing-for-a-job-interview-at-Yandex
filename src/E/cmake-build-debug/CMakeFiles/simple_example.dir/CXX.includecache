@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/WORKSPACE/Preparing-for-a-job-interview-at-Yandex/src/E/E.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+string
+-
+
