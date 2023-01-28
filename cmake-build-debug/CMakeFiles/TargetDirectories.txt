@@ -1,3 +1,0 @@
-C:/WORKSPACE/Preparing-for-a-job-interview-at-Yandex/cmake-build-debug/CMakeFiles/simple_example.dir
-C:/WORKSPACE/Preparing-for-a-job-interview-at-Yandex/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/WORKSPACE/Preparing-for-a-job-interview-at-Yandex/cmake-build-debug/CMakeFiles/rebuild_cache.dir
