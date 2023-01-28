@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\F
+CMAKE_SOURCE_DIR = C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\G
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\F\cmake-build-debug
+CMAKE_BINARY_DIR = C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\G\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\F\cmake-build-debug\CMakeFiles C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\F\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\G\cmake-build-debug\CMakeFiles C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\G\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\F\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\WORKSPACE\Preparing-for-a-job-interview-at-Yandex\src\G\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ simple_example/fast:
 	$(MAKE) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/build
 .PHONY : simple_example/fast
 
-F.obj: F.cpp.obj
+G.obj: G.cpp.obj
 
-.PHONY : F.obj
+.PHONY : G.obj
 
 # target to build an object file
-F.cpp.obj:
-	$(MAKE) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/F.cpp.obj
-.PHONY : F.cpp.obj
+G.cpp.obj:
+	$(MAKE) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/G.cpp.obj
+.PHONY : G.cpp.obj
 
-F.i: F.cpp.i
+G.i: G.cpp.i
 
-.PHONY : F.i
+.PHONY : G.i
 
 # target to preprocess a source file
-F.cpp.i:
-	$(MAKE) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/F.cpp.i
-.PHONY : F.cpp.i
+G.cpp.i:
+	$(MAKE) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/G.cpp.i
+.PHONY : G.cpp.i
 
-F.s: F.cpp.s
+G.s: G.cpp.s
 
-.PHONY : F.s
+.PHONY : G.s
 
 # target to generate assembly for a file
-F.cpp.s:
-	$(MAKE) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/F.cpp.s
-.PHONY : F.cpp.s
+G.cpp.s:
+	$(MAKE) -f CMakeFiles\simple_example.dir\build.make CMakeFiles/simple_example.dir/G.cpp.s
+.PHONY : G.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... simple_example
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... F.obj
-	@echo ... F.i
-	@echo ... F.s
+	@echo ... G.obj
+	@echo ... G.i
+	@echo ... G.s
 .PHONY : help
 
 

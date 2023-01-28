@@ -1,4 +1,4 @@
-# Install script for directory: C:/WORKSPACE/Preparing-for-a-job-interview-at-Yandex/src/F
+# Install script for directory: C:/WORKSPACE/Preparing-for-a-job-interview-at-Yandex/src/G
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/WORKSPACE/Preparing-for-a-job-interview-at-Yandex/src/F/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/WORKSPACE/Preparing-for-a-job-interview-at-Yandex/src/G/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
